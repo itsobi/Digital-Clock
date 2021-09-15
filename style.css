@@ -2,3 +2,13 @@
   font-size: 250px;
   text-align: center;
 }
+
+body {
+  background-color: yellow;
+}
+
+@media all and (max-width: 500px) {
+  #clock {
+    font-size: 100px;
+  }
+}
